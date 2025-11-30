@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Star } from "./components/Star";
 import {
   ratingsContainerStyle,
   starContainerStyle,
-} from "./components/componentStyles/ComponentStyles";
+} from "./StarRatingComponentStyles";
+import { Star } from "./Star";
 
 export default function StarRating({
   maxRating = 5,
